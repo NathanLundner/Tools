@@ -16,7 +16,7 @@ printf '\n';
 printf '[+] Running port and version enumeration: (nmap -T4 -p- -A) \n';
 
 for i in $(<live_ip.txt);do
-# nmap -sC -sV -oA $targets ;
+# nmap -sC -sV -oA i ;
 	printf "\n[+] Scanning: $i";
 	printf "\n";
 	nmap -T4 -p- -A -vv -oN $i.log $i ;
