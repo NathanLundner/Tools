@@ -10,4 +10,4 @@ Just a nice little tool to keep your scans organized and documented for further 
 #### Syntax: 
 ##### ./autoscan.sh (nmap ip range) (your current ip on the network you are testing)
 ##### Example:
-##### ./autoscan.sh 10.2.0.0-255 10.2.0.100
+##### ./autoscan.sh 10.2.0.0/24 10.2.0.100
