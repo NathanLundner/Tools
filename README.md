@@ -1,5 +1,5 @@
 # Tools
-Small collection of little scripts for pentesting 
+Small collection of little scripts for pentesting \n
 (Nothing here is earth shattering, it's just small collection of scripts that I find to save a little bit of time)
 
 ### Autoscan:
@@ -15,7 +15,7 @@ Just a nice little tool to keep your scans organized and documented for further 
 ---------------------------------------------------
 ### Penstart:
 
-Penstart is a simple script that sets up a dir with named whatever you want. The dir includes a exploits, gobuster_scans, and nikto scans dir. It also sets up a readme file with the target name you inputted as the header.I will be updating this to include more folders and more advanced documentation set up as I progress in my pentest learning. 
+Penstart is a simple script that sets up a dir with named whatever you want. The dir includes a exploits, gobuster_scans, and nikto scans dir. It also sets up a readme file with the target name you inputted as the header.I will be updating this to include more folders and more advanced documentation set up as I progress in my pentest learning. \n
 My philosophy is to stay as organized as you can during a pentest for easy report writing. 
 
 #### Syntax: penstart.sh <root folder name>
