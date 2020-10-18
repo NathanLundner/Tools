@@ -1,5 +1,6 @@
 # Tools
-Small collection little scripts for pentesting (Nothing here is earth shattering, it's just small collection of scripts that I find to save a little bit of time)
+Small collection of little scripts for pentesting 
+(Nothing here is earth shattering, it's just small collection of scripts that I find to save a little bit of time)
 
 ### Autoscan:
 -------------------------------------------
