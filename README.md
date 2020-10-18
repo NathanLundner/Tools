@@ -27,7 +27,7 @@ My philosophy is to stay as organized as you can during a pentest for easy repor
 
 -----------------------------------
 
-### Pyscrapper
+### Pyscrapper:
 
 Simple Python webscrapper that grabs the text from a url and converts it into a txt file readyfor brute force attacks. 
 
