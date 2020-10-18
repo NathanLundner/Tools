@@ -9,13 +9,13 @@ Autoscan runs a nmap ping scan and ouputs the live hosts to a file and excludes 
 Just a nice little tool to keep your scans organized and documented for further examination.
 
 #### Syntax: 
-##### ./autoscan.sh (nmap ip range) (your current ip on the network you are testing)
+> ./autoscan.sh (nmap ip range) (your current ip on the network you are testing)
 ##### Example:
-##### ./autoscan.sh 10.2.0.0/24 10.2.0.100
+> ./autoscan.sh 10.2.0.0/24 10.2.0.100
 ---------------------------------------------------
 ### Penstart:
 
 Penstart is a simple script that sets up a dir with named whatever you want. The dir includes a exploits, gobuster_scans, and nikto scans dir. It also sets up a readme file with the target name you inputted as the header.I will be updating this to include more folders and more advanced documentation set up as I progress in my pentest learning. \n
 My philosophy is to stay as organized as you can during a pentest for easy report writing. 
 
-#### Syntax: penstart.sh <root folder name>
+> Syntax: penstart.sh (root folder name)
