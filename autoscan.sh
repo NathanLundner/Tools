@@ -3,6 +3,18 @@
 # Network enumeration script written by checkn8
 # Just a quick script to help when using Nmap
 
+# Check if valid params were sent 
+
+if [ "$1" == "" ]
+then
+printf "[-]Syntax: autoscanner <namp ip range> <your IP> " ;
+
+elif [ "$2" == "" ]
+then
+printf "[-] Invalid Syntax! \n Syntax: autoscanner <namp ip range> <your IP> \n" ;
+
+# Start scanning
+else
 yellow="\e[93m"
 
 reset="\e[0m"
@@ -25,13 +37,14 @@ printf "${reset}\n";
 
 printf '[+] Running port and version enumeration: (nmap -T4 -p- -A) \n';
 
-# Loops a nmap scan for every target.
 for i in $(<scans_$currentDate/live_ips.txt);do
         #-oA scans_$currentDate/$i for multiple output files. 
 	echo -e "${yellow}\n[+] Scanning: $i${reset}";
 	printf "\n";
-	nmap -T4 -p- -A -vv -oN scans_$currentDate/$i.log $i ;
+	nmap -T4 -p- -A -vv -oN scans_$currentDate/$i.log $i &
 	printf "\n";
+wait
 done
 
 printf '[+] Saved Scans\n';
+fi
